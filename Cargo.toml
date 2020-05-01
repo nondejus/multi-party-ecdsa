@@ -18,7 +18,7 @@ keywords = [
 ]
 
 homepage = "https://github.com/KZen-networks/multi-party-ecdsa"
-repository = "https://github.com/KZen-networks/multi-party-ecdsa"
+repository = "https://github.com/PolySignInc/multi-party-ecdsa"
 license = "GPL-3.0-or-later"
 categories = ["cryptography"]
 

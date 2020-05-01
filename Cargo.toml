@@ -42,11 +42,11 @@ features = ["ec_secp256k1"]
 
 [dependencies.centipede]
 git = "https://github.com/PolySignInc/centipede"
-tag = "v0.2.2t"
+branch = "v0.2.2t"
 
 [dependencies.class_group]
 git = "https://github.com/PolySignInc/class"
-tag = "v0.4.4t"
+branch = "v0.4.4t"
 optional = true
 
 [dev-dependencies]

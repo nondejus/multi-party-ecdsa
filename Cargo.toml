@@ -18,7 +18,7 @@ keywords = [
 ]
 
 homepage = "https://github.com/KZen-networks/multi-party-ecdsa"
-repository = "https://github.com/KZen-networks/multi-party-ecdsa"
+repository = "https://github.com/PolySignInc/multi-party-ecdsa"
 license = "GPL-3.0-or-later"
 categories = ["cryptography"]
 
@@ -29,14 +29,14 @@ crate-type = ["lib"]
 cclst = ["class_group"]
 
 [dependencies]
-paillier = { git = "https://github.com/KZen-networks/rust-paillier", tag = "v0.3.4"}
-zk-paillier = { git = "https://github.com/KZen-networks/zk-paillier", tag = "v0.2.8"}
+paillier = { git = "https://github.com/PolySignInc/rust-paillier", tag = "v0.3.4"}
+zk-paillier = { git = "https://github.com/PolySignInc/zk-paillier", tag = "v0.2.8"}
 subtle = { version = "2" }
 serde = { version = "1.0", features = ["derive"] }
 zeroize = "0.10.1"
 
 [dependencies.curv]
-git = "https://github.com/KZen-networks/curv"
+git = "https://github.com/PolySignInc/curv"
 tag = "v0.2.3"
 features = ["ec_secp256k1"]
 
@@ -61,7 +61,7 @@ serde_json = "1.0"
 libsecp256k1 = "0.3.2"
 
 [patch.crates-io]
-rust-gmp = { version = "0.5.0", features = ["serde_support"], git = "https://github.com/KZen-networks/rust-gmp" }
+rust-gmp = { version = "0.5.0", features = ["serde_support"], git = "https://github.com/PolySignInc/rust-gmp" }
 
 [[example]]
 name = "sm_manager"
